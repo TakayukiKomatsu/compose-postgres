@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   postgres:
-    container_name: ${DATABASE_CONTAINER_NAME}
+    container_name: ${POSTGRES_CONTAINER_NAME}
     image: postgres
     environment:
       POSTGRES_USER: ${POSTGRES_USER}
